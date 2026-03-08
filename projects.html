@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects | Arafat Rahman Lisan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="grid"></span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brandDot"></span>
+      <span class="brandText">Arafat</span>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="projects.html">Projects</a>
+      <a href="research.html">Research</a>
+      <a href="experience.html">Experience</a>
+      <a href="volunteering.html">Volunteering</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btnGhost" data-ripple href="contact.html">Hire / Collaborate</a>
+    </nav>
+
+    <button class="hamburger" data-ripple aria-label="Open menu">☰</button>
+  </header>
+
+  <div class="drawer" id="drawer">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="research.html">Research</a>
+    <a href="experience.html">Experience</a>
+    <a href="volunteering.html">Volunteering</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="container">
+
+    <section class="pageHead reveal">
+      <h1>Projects</h1>
+      <p class="muted">Clean systems. Real features. Visible impact.</p>
+    </section>
+
+    <section class="section">
+      <div class="projectGrid">
+
+        <article class="projectCard reveal" data-modal-open="cinexModal">
+          <div class="projectMedia">
+            <!-- PLACE IMAGE: assets/cinex.png -->
+            <img src="assets/cinex.png" alt="CINEX thumbnail">
+            <span class="tag">Featured</span>
+          </div>
+
+          <div class="projectBody">
+            <h3>CINEX - Movie Ticket Management System</h3>
+            <p class="muted small">ASP.NET Core MVC • EF Core • SQL Server</p>
+
+            <p class="projectDesc">
+              Full journey movie ticket booking: browsing, show scheduling, interactive seat selection with holds,
+              multi gateway payments, PDF invoices, and an admin management portal.
+            </p>
+
+            <div class="chips">
+              <span class="chip">Identity</span>
+              <span class="chip">Seat Hold</span>
+              <span class="chip">Payments</span>
+              <span class="chip">QuestPDF</span>
+              <span class="chip">Dashboard</span>
+            </div>
+
+            <div class="projectActions">
+              <button class="btn" data-ripple type="button">View Details</button>
+              <a class="btn btnGhost" data-ripple target="_blank"
+                 href="https://drive.google.com/file/d/1JvAFfOShtutkv6NINYVor4NSGrYmPmEV/view">
+                Report (PDF)
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="projectCard reveal">
+          <div class="projectMedia">
+            <!-- PLACE IMAGE: assets/pharmacy.png -->
+            <img src="assets/pharmacy.png" alt="Pharmacy Management System">
+            <span class="tag subtle">Java</span>
+          </div>
+          <div class="projectBody">
+            <h3>Pharmacy Management System</h3>
+            <p class="muted small">Java • Desktop</p>
+            <p class="projectDesc">
+              Pharmacy operations automation: inventory tracking, employee records, customer workflow,
+              and basic billing/payment processing in a structured OOP approach.
+            </p>
+            <div class="chips">
+              <span class="chip">Java</span>
+              <span class="chip">OOP</span>
+              <span class="chip">Desktop</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="projectCard reveal">
+          <div class="projectMedia">
+            <!-- PLACE IMAGE: assets/expense.png -->
+            <img src="assets/expense.png" alt="Expense Tracker">
+            <span class="tag subtle">Swing</span>
+          </div>
+          <div class="projectBody">
+            <h3>Expense Tracker</h3>
+            <p class="muted small">Java Swing • GUI</p>
+            <p class="projectDesc">
+              Lightweight expense tracking with login, dashboard navigation, category filtering,
+              and simple profile management using a clean desktop UI.
+            </p>
+            <div class="chips">
+              <span class="chip">Java</span>
+              <span class="chip">Swing</span>
+              <span class="chip">GUI</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted small">© <span id="year"></span> Arafat Rahman Lisan.</p>
+    </footer>
+
+  </main>
+
+  <!-- CINEX Modal -->
+  <div class="modal" id="cinexModal" aria-hidden="true" role="dialog" aria-label="CINEX details">
+    <div class="modalCard">
+      <div class="modalTop">
+        <h3>CINEX - Movie Ticket Management System</h3>
+        <button class="iconBtn" data-modal-close data-ripple aria-label="Close">✕</button>
+      </div>
+
+      <p class="muted">
+        CINEX is a full stack ASP.NET Core MVC application delivering a seamless ticket booking experience with a clean UI and role based admin control.
+      </p>
+
+      <div class="split">
+        <div class="block">
+          <h4>Key Features</h4>
+          <ul>
+            <li>Movie Discovery: Now Showing, Coming Soon, Top Rated, Genres</li>
+            <li>Showtime Scheduling: theatre, hall, slot scheduling builder</li>
+            <li>Seat Management: interactive map, real time availability, 2 minute holds</li>
+            <li>Payments: PayPal, bKash, Nagad; PDF invoices</li>
+            <li>Admin Portal: theatres, seats, users, schedules, payments</li>
+            <li>Reports: KPIs, filters, revenue insights</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h4>Tech Stack</h4>
+          <ul>
+            <li>Frontend: Razor, Bootstrap, custom CSS</li>
+            <li>Backend: ASP.NET Core MVC (.NET 8), EF Core</li>
+            <li>Database: SQL Server</li>
+            <li>Security: Identity (role based)</li>
+            <li>Docs: QuestPDF invoices</li>
+          </ul>
+
+          <h4 style="margin-top:14px;">Links</h4>
+          <div class="modalActions">
+            <a class="btn" data-ripple target="_blank"
+               href="https://www.linkedin.com/posts/arafat-rahman-lisan_aspnetcore-dotnet-csharp-activity-7378783561119739905-8XgJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEjheyoBQCHANKOz-GfSujnZQH5a_xcO__w">
+              Watch CINEX Video
+            </a>
+            <a class="btn btnGhost" data-ripple target="_blank"
+               href="https://drive.google.com/file/d/1JvAFfOShtutkv6NINYVor4NSGrYmPmEV/view">
+              Open Report
+            </a>
+            <a class="btn btnGhost" data-ripple target="_blank"
+               href="https://github.com/arafat-rahman-lisan/MovieTicket-Site-Management-System">
+              GitHub Source
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

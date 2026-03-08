@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arafat Rahman Lisan | Portfolio</title>
+  <meta name="description" content="Portfolio of Arafat Rahman Lisan - ASP.NET Core developer, researcher, and builder." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-page">
+  <div class="site-bg" aria-hidden="true">
+    <div class="noise"></div>
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="orb orb-c"></div>
+    <div class="ring ring-a"></div>
+    <div class="ring ring-b"></div>
+    <div class="ring ring-c"></div>
+  </div>
+
+  <header class="topbar shell">
+    <a class="brand" href="#home" aria-label="Arafat Rahman Lisan home">
+      <img class="brandLogo" src="assets/arafat_logo.png" alt="Arafat Rahman logo" />
+    </a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#research">Open Source</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a class="resumeLink" href="contact.html">Resume <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </nav>
+
+    <button class="hamburger" type="button" aria-label="Open menu" aria-controls="drawer" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <div class="drawer" id="drawer" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#research">Open Source</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="contact.html">Resume</a>
+  </div>
+
+  <main>
+    <section class="hero shell" id="home">
+      <div class="hero-content reveal">
+        <h1>Arafat Rahman Lisan</h1>
+        <div class="hero-roles" aria-live="polite">
+          <div id="rotating-skill" class="wave-role"></div>
+        </div>
+        <p class="hero-copy">
+          I build performant web applications that solve real problems and deliver exceptional user experiences.
+        </p>
+
+        <div class="hero-social-title">Catch the Dev!</div>
+        <div class="hero-socials social-links">
+          <a class="social-github" href="https://github.com/arafat-rahman-lisan" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a class="social-linkedin" href="https://www.linkedin.com/in/arafat-rahman-lisan/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a class="social-discord" href="https://discord.com" target="_blank" rel="noreferrer" aria-label="Discord">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a class="social-email" href="mailto:arafatrahmanlis02@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="social-x" href="https://x.com" target="_blank" rel="noreferrer" aria-label="X">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-preview shell section-block reveal" id="about">
+      <div class="section-head center">
+        <h2>About Me</h2>
+        <p>A quick look at who I am and what I focus on.</p>
+      </div>
+      <div class="glass-grid about-grid">
+        <div class="glass-card about-card span-7">
+          <h3>Who I am</h3>
+          <p>
+            I am a CSE student at AIUB with strong interest in web development, software engineering, AI-powered systems, and research-driven problem solving.
+            My work blends development, system design, research writing, and community impact.
+          </p>
+        </div>
+        <div class="glass-card profile-tile span-5">
+          <img src="assets/profile.png" alt="Arafat Rahman Lisan portrait" class="profile-shot" />
+        </div>
+      </div>
+    </section>
+
+    <section class="work-preview shell section-block reveal" id="work">
+      <div class="section-head center">
+        <h2>Recent Works</h2>
+        <p>Some of my practical projects and systems.</p>
+      </div>
+      <div class="glass-grid project-grid">
+        <article class="project-card glass-card">
+          <img src="assets/cinex.png" alt="CINEX project preview" />
+          <div class="project-body">
+            <h3>CINEX Movie Ticketing Platform</h3>
+            <p>ASP.NET Core MVC based cinema management system with seat hold, payment flow, invoice PDF, and admin dashboards.</p>
+            <div class="project-tags">
+              <span>ASP.NET Core</span>
+              <span>C#</span>
+              <span>SQL Server</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card glass-card">
+          <img src="assets/expense.png" alt="Expense tracker preview" />
+          <div class="project-body">
+            <h3>Expense & Business Tools</h3>
+            <p>Utility-focused software ideas centered on management dashboards, business records, and day-to-day usability.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card glass-card">
+          <img src="assets/pharmacy.png" alt="Pharmacy project preview" />
+          <div class="project-body">
+            <h3>Academic & System Projects</h3>
+            <p>University projects across database systems, frontend interaction, logic building, and structured software design.</p>
+            <div class="project-tags">
+              <span>Java</span>
+              <span>C++</span>
+              <span>DBMS</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience-preview shell section-block reveal" id="experience">
+      <div class="section-head center">
+        <h2>Experience</h2>
+        <p>Leadership, learning, and building.</p>
+      </div>
+      <div class="timeline-grid">
+        <article class="glass-card timeline-card">
+          <span class="timeline-dot"></span>
+          <h3>Qubit Catchers</h3>
+          <strong>Founder & CEO</strong>
+          <p>Leading a rural-tech and education initiative focused on accessible learning and competitive programming.</p>
+        </article>
+        <article class="glass-card timeline-card">
+          <span class="timeline-dot"></span>
+          <h3>AIUB Research Work</h3>
+          <strong>Student Researcher</strong>
+          <p>Working on academic papers, software systems, AI ideas, and data-backed technical exploration.</p>
+        </article>
+        <article class="glass-card timeline-card">
+          <span class="timeline-dot"></span>
+          <h3>Community Leadership</h3>
+          <strong>Organizer & Mentor</strong>
+          <p>Contributing to tech learning, student collaboration, public speaking, and growth-focused initiatives.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills-section section-block reveal" id="skills">
+      <div class="section-head center">
+        <h2>Skills</h2>
+        <p>Technologies and tools I work with on a daily basis.</p>
+      </div>
+
+      <div class="skills-marquee marquee-left" data-marquee>
+        <div class="skills-track">
+          <div class="skill-item" style="--skill-color:#9b78ff"><i class="devicon-csharp-plain"></i><span>C#</span></div>
+          <div class="skill-item" style="--skill-color:#b8a7ff"><i class="devicon-dotnetcore-plain"></i><span>.NET</span></div>
+          <div class="skill-item" style="--skill-color:#a995ff"><i class="devicon-dotnetcore-plain"></i><span>ASP.NET Core</span></div>
+          <div class="skill-item" style="--skill-color:#e34f26"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+          <div class="skill-item" style="--skill-color:#1572b6"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+          <div class="skill-item" style="--skill-color:#f7df1e"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+          <div class="skill-item" style="--skill-color:#f89820"><i class="devicon-java-plain"></i><span>Java</span></div>
+          <div class="skill-item" style="--skill-color:#659ad2"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+
+          <div class="skill-item" style="--skill-color:#9b78ff"><i class="devicon-csharp-plain"></i><span>C#</span></div>
+          <div class="skill-item" style="--skill-color:#b8a7ff"><i class="devicon-dotnetcore-plain"></i><span>.NET</span></div>
+          <div class="skill-item" style="--skill-color:#a995ff"><i class="devicon-dotnetcore-plain"></i><span>ASP.NET Core</span></div>
+          <div class="skill-item" style="--skill-color:#e34f26"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+          <div class="skill-item" style="--skill-color:#1572b6"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+          <div class="skill-item" style="--skill-color:#f7df1e"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+          <div class="skill-item" style="--skill-color:#f89820"><i class="devicon-java-plain"></i><span>Java</span></div>
+          <div class="skill-item" style="--skill-color:#659ad2"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+        </div>
+      </div>
+
+      <div class="skills-marquee marquee-right" data-marquee>
+        <div class="skills-track">
+          <div class="skill-item" style="--skill-color:#cc2927"><i class="devicon-microsoftsqlserver-plain"></i><span>SQL Server</span></div>
+          <div class="skill-item" style="--skill-color:#4479a1"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+          <div class="skill-item" style="--skill-color:#f05032"><i class="devicon-git-plain"></i><span>Git</span></div>
+          <div class="skill-item" style="--skill-color:#ffffff"><i class="devicon-github-original"></i><span>GitHub</span></div>
+          <div class="skill-item" style="--skill-color:#9ecbff"><i class="fa-solid fa-brain"></i><span>Machine Learning</span></div>
+          <div class="skill-item" style="--skill-color:#b497ff"><i class="fa-solid fa-code-branch"></i><span>DSA</span></div>
+          <div class="skill-item" style="--skill-color:#8dc3ff"><i class="fa-solid fa-database"></i><span>Database Design</span></div>
+          <div class="skill-item" style="--skill-color:#d19fff"><i class="fa-solid fa-magnifying-glass-chart"></i><span>Research</span></div>
+
+          <div class="skill-item" style="--skill-color:#cc2927"><i class="devicon-microsoftsqlserver-plain"></i><span>SQL Server</span></div>
+          <div class="skill-item" style="--skill-color:#4479a1"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+          <div class="skill-item" style="--skill-color:#f05032"><i class="devicon-git-plain"></i><span>Git</span></div>
+          <div class="skill-item" style="--skill-color:#ffffff"><i class="devicon-github-original"></i><span>GitHub</span></div>
+          <div class="skill-item" style="--skill-color:#9ecbff"><i class="fa-solid fa-brain"></i><span>Machine Learning</span></div>
+          <div class="skill-item" style="--skill-color:#b497ff"><i class="fa-solid fa-code-branch"></i><span>DSA</span></div>
+          <div class="skill-item" style="--skill-color:#8dc3ff"><i class="fa-solid fa-database"></i><span>Database Design</span></div>
+          <div class="skill-item" style="--skill-color:#d19fff"><i class="fa-solid fa-magnifying-glass-chart"></i><span>Research</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="research-preview shell section-block reveal" id="research">
+      <div class="section-head center">
+        <h2>Open Source & Research</h2>
+        <p>Technology, ideas, and social impact.</p>
+      </div>
+      <div class="glass-grid research-grid">
+        <article class="glass-card research-card">
+          <img src="assets/research-womensafety-cover.jpg" alt="Women safety research cover" />
+          <div>
+            <h3>Women Safety Smart Ring</h3>
+            <p>Wearable safety concept combining emergency communication and practical protection thinking.</p>
+          </div>
+        </article>
+        <article class="glass-card research-card">
+          <img src="assets/research-rmg-cover.jpg" alt="RMG smart fabric research cover" />
+          <div>
+            <h3>Smart Fabric in RMG</h3>
+            <p>Research around comfort innovation, advanced fabric concepts, and the future of intelligent garments.</p>
+          </div>
+        </article>
+        <article class="glass-card research-card">
+          <img src="assets/research-ai-health-cover.jpg" alt="AI healthcare research cover" />
+          <div>
+            <h3>AI in Primary Healthcare</h3>
+            <p>Study of AI usage patterns and practical technology adoption in healthcare support settings.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-preview shell section-block reveal" id="contact">
+      <div class="section-head center">
+        <h2>Contact</h2>
+        <p>Let us connect and build something meaningful.</p>
+      </div>
+      <div class="glass-card contact-card">
+        <p>Interested in collaboration, research, projects, or opportunities? Reach out and let us talk.</p>
+        <div class="contact-actions">
+          <a href="mailto:arafatrahmanlis02@gmail.com">Email Me</a>
+          <a href="https://www.linkedin.com/in/arafat-rahman-lisan/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+      <section class="shell end-cta reveal" aria-label="Reach out">
+      <div class="end-cta-card">
+        <div class="end-cta-noise"></div>
+        <h2>Scrolled till here?</h2>
+        <p>Don't be a stranger, <a href="mailto:arafatrahmanlis02@gmail.com">let's talk!</a></p>
+        <div class="end-cta-socials social-links">
+          <a class="social-github" href="https://github.com/arafat-rahman-lisan" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a class="social-linkedin" href="https://www.linkedin.com/in/arafat-rahman-lisan/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a class="social-discord" href="https://discord.com" target="_blank" rel="noreferrer" aria-label="Discord">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a class="social-email" href="mailto:arafatrahmanlis02@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="social-x" href="https://x.com" target="_blank" rel="noreferrer" aria-label="X">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+</main>
+
+  <footer class="footer shell">
+    <p>© <span id="year"></span> Arafat Rahman Lisan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

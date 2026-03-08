@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About | Arafat Rahman Lisan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="grid"></span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Go to home">
+      <span class="brandDot"></span>
+      <span class="brandText">Arafat</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a class="active" href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="research.html">Research</a>
+      <a href="experience.html">Experience</a>
+      <a href="volunteering.html">Volunteering</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btnGhost" data-ripple href="projects.html">View Work</a>
+    </nav>
+
+    <button class="hamburger" data-ripple aria-label="Open menu" aria-controls="drawer" aria-expanded="false">☰</button>
+  </header>
+
+  <div class="drawer" id="drawer" aria-label="Mobile menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="research.html">Research</a>
+    <a href="experience.html">Experience</a>
+    <a href="volunteering.html">Volunteering</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="container">
+
+    <section class="pageHead reveal">
+      <h1>About</h1>
+      <p class="muted">
+        A short story of what you build, what you research, and why it matters.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="grid2">
+        <div class="card reveal">
+          <h2 class="h2">Bio</h2>
+          <p class="muted">
+            On a mission to bring tech education where it’s needed most, one line of code at a time.
+          </p>
+          <p class="muted">
+            I’m a Computer Science & Engineering student at American International University-Bangladesh (AIUB),
+            building real systems and research with a purpose-driven mindset. I work across ASP.NET Core (C#),
+            algorithms and data structures, databases, and machine learning, always focusing on clean engineering
+            and practical outcomes.
+          </p>
+          <p class="muted">
+            Through Qubit Catchers, the organization I founded and lead as CEO, I’m creating pathways for rural
+            learners to explore competitive programming, quantum computing, and modern software skills. My goal is
+            simple: bridge the digital divide and help students turn curiosity into confidence, and confidence into capability.
+          </p>
+          <p class="muted">
+            I’ve built projects like CINEX, a full-stack movie ticket management system with seat holds, payments,
+            admin management, and PDF invoices. Alongside development, I’m actively involved in research work spanning
+            technology for women’s safety, smart fabrics and comfort innovation for Bangladesh’s RMG sector, and the
+            real-world impact of AI tools in primary healthcare.
+          </p>
+          <p class="muted">
+            Beyond tech, I value leadership, clear communication, and community-building. I enjoy mentoring, organizing,
+            and collaborating across teams. Fluent in Bangla, English, and Hindi, I connect across cultures and bring a calm,
+            focused approach to every challenge I take on.
+          </p>
+
+          <div class="chipRow">
+            <span class="chip">ASP.NET Core</span>
+            <span class="chip">C#</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">DSA</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Research</span>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h2 class="h2">Qubit Catchers</h2>
+
+          <div class="orgCard">
+            <div class="logoBadge big">
+              <!-- PLACE IMAGE: assets/qc-logo.png -->
+              <img class="orgLogo" src="assets/qc-logo.png" alt="Qubit Catchers logo" />
+            </div>
+            <div>
+              <div class="orgNameLg">Qubit Catchers</div>
+              <div class="muted small">CEO & Founder</div>
+            </div>
+          </div>
+
+          <p class="muted">
+            Qubit Catchers is built to make advanced learning accessible. We focus on training, mentorship,
+            and guidance so students from underserved communities can compete and grow in modern tech.
+          </p>
+
+          <div class="list">
+            <div class="li">Competitive programming learning tracks</div>
+            <div class="li">Quantum computing & emerging-tech exposure</div>
+            <div class="li">Community mentorship and skill building</div>
+          </div>
+
+          <a class="btn" data-ripple href="contact.html">Collaborate with me</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted small">© <span id="year"></span> Arafat Rahman Lisan.</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

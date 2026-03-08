@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Arafat Rahman Lisan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="grid"></span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brandDot"></span>
+      <span class="brandText">Arafat</span>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="research.html">Research</a>
+      <a href="experience.html">Experience</a>
+      <a href="volunteering.html">Volunteering</a>
+      <a class="active" href="contact.html">Contact</a>
+      <a class="btn btnGhost" data-ripple href="projects.html">View Work</a>
+    </nav>
+
+    <button class="hamburger" data-ripple aria-label="Open menu">☰</button>
+  </header>
+
+  <div class="drawer" id="drawer">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="research.html">Research</a>
+    <a href="experience.html">Experience</a>
+    <a href="volunteering.html">Volunteering</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="container">
+
+    <section class="pageHead reveal">
+      <h1>Contact</h1>
+      <p class="muted">Let’s build something meaningful.</p>
+    </section>
+
+    <section class="section">
+      <div class="contactGrid">
+
+        <div class="card soft reveal">
+          <h3>Direct</h3>
+          <div class="kv">
+            <div class="kvRow"><span class="kvK">Phone</span><span class="kvV">01303606086</span></div>
+            <div class="kvRow"><span class="kvK">GitHub</span><span class="kvV">
+              <a class="inlineLink" target="_blank" href="https://github.com/arafat-rahman-lisan">github.com/arafat-rahman-lisan</a>
+            </span></div>
+            <div class="kvRow"><span class="kvK">LinkedIn</span><span class="kvV">
+              <a class="inlineLink" target="_blank" href="https://www.linkedin.com/in/arafat-rahman-lisan/">linkedin.com/in/arafat-rahman-lisan</a>
+            </span></div>
+          </div>
+
+          <div class="linkList" style="margin-top:14px;">
+            <a class="linkBtn" data-ripple target="_blank" href="https://github.com/arafat-rahman-lisan">Open GitHub</a>
+            <a class="linkBtn" data-ripple target="_blank" href="https://www.linkedin.com/in/arafat-rahman-lisan/">Open LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="card soft reveal" onsubmit="return fakeSend(event)">
+          <h3>Quick Message</h3>
+          <input required type="text" placeholder="Your name" />
+          <input required type="email" placeholder="Your email" />
+          <textarea required rows="4" placeholder="Message"></textarea>
+          <button class="btn" data-ripple type="submit">Send</button>
+          <p class="muted small" id="formMsg"></p>
+          <p class="muted small">This is a static form demo. Add backend later if needed.</p>
+        </form>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted small">© <span id="year"></span> Arafat Rahman Lisan.</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
